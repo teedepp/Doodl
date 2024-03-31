@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+.button{
+    background-color: #dae3cc;
+    -fx-background-radius: 50;
+    -fx-font-family: "Miltonian", serif;
+    -fx-font-size: 54px;
+    -fx-font-weight: 400;
+    -fx-font-style: normal;
+    -fx-text-fill: #2E6A05;
+    -fx-padding: 0 5 0 5;
+}
+
+.buttontext{
+    background-color: #dae3cc;
+    -fx-background-radius: 50;
+    -fx-font-family: "Miltonian", serif;
+    -fx-font-size: 30px;
+    -fx-font-weight: 400;
+    -fx-font-style: normal;
+    -fx-text-fill: #2E6A05;
+    -fx-padding: 0 5 0 5;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    -fx-background-radius: 50;
+}
+.button:pressed{
+    background-color: #dae3cc;
+    -fx-background-radius: 50;
+}
+.button-with-image {
+    -fx-background-image: url('backbt.png');
+    -fx-background-size: contain; /* Adjust image size to cover the button */
+    -fx-background-repeat: no-repeat; /* Prevent image from repeating */
+    -fx-background-position: center; /* Center the image within the button */
+   /* Add padding to the button for better appearance */
+}
+.button-with-image1 {
+    -fx-background-image: url('reloadbt.png');
+    -fx-background-size: contain; /* Adjust image size to cover the button */
+    -fx-background-repeat: no-repeat; /* Prevent image from repeating */
+    -fx-background-position: center; /* Center the image within the button */
+   /* Add padding to the button for better appearance */
+}
+.menu{
+    -fx-font-family: "Julee", cursive;
+    -fx-font-weight: 400;
+    -fx-font-style: normal;
+    -fx-text-fill: #0F2103;
+    -fx-text-alignment: center;
+}
+.menu1{
+    -fx-font-family: "Julee", cursive;
+    -fx-font-weight: 2000;
+    -fx-font-style: normal;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+}
+.hbox-with-spacing {
+    -fx-spacing: 10px; /* Adjust the spacing value as needed */
+}
+.timer-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #dd5757;
+    -fx-font-weight: bold;
+    -fx-font-style: normal;
+    -fx-font-family: "Julee", cursive;
+}
+.my-pane-l {
+    -fx-background-radius: 10px 0 0 10px; /* Top-left and bottom-left corners are rounded */
+
+}
+.my-pane-r {
+    -fx-background-radius: 0 10px 10px 0; /* Top-left and bottom-left corners are rounded */
+    
+}
+.my-pane-t {
+    -fx-background-radius: 5px 5px 0 0; /* Top-left and bottom-left corners are rounded */
+
+}
+.my-pane-t1 {
+    -fx-background-radius: 10px 10px 0 0; /* Top-left and bottom-left corners are rounded */
+
+}
+.my-pane-d {
+    -fx-background-radius: 0px 0 10px 10px; /* Top-left and bottom-left corners are rounded */
+
+}
+.css-scroll{
+    -fx-overflow-x: scroll;
+    -fx-scrollbar-width: auto;
+    -fx-scrollbar-color: #ffffff;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}

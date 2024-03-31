@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="689.0" style="-fx-background-color: E69219;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.creditsController">
+   <children>
+      <Text layoutX="139.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The project is acreditted to:">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="347.0" fitWidth="256.0" layoutX="14.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="credit1" fitHeight="289.0" fitWidth="278.0" layoutX="90.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/credits2sohamkfc.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="credit2" fitHeight="289.0" fitWidth="217.0" layoutX="385.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/credits1teedeekfc.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="12.0" layoutY="-8.0" mnemonicParsing="false" onAction="#backToHome" prefHeight="80.0" prefWidth="45.0" style="-fx-background-color: E69219;" styleClass="button-with-image" stylesheets="@style1.css" />
+      <Text layoutX="103.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. sohamChakraborty.java">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="395.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. tridebDhar.fxml">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. shreyaMishra.md" />
+      <Text layoutX="296.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. simranSingh.html" />
+      <Text layoutX="503.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. shreyansh.py" />
+   </children>
+</AnchorPane>

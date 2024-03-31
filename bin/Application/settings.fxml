@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="774.0" style="-fx-background-color: E69219;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.settingsController">
+   <children>
+      <Text layoutX="119.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The room code is:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Label fx:id="roomCode" layoutX="340.0" layoutY="17.0" prefHeight="35.0" prefWidth="204.0" text="XXXXXX" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Text layoutX="63.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set no. of rounds:" wrappingWidth="157.33392333984375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Draw time in secs.:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="customWords" layoutX="60.0" layoutY="196.0" prefHeight="158.0" prefWidth="650.0" promptText="separate words using commas(,) viz. dog, cat, apple" />
+      <Text layoutX="64.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add custom words(incl. system words): ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="cwCheckBox" layoutX="64.0" layoutY="362.0" mnemonicParsing="false" text="Use custom words exclusively" />
+      <Button fx:id="startGame" layoutX="309.0" layoutY="387.0" mnemonicParsing="false" onAction="#startGame" prefHeight="60.0" prefWidth="157.0" style="-fx-background-color: #00FF00;" text="Start Game">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="roundChoice" layoutX="220.0" layoutY="59.0" prefWidth="150.0" />
+   <ChoiceBox fx:id="timeChoice" layoutX="220.0" layoutY="111.0" prefWidth="150.0" />
+      <Button fx:id="backButton" layoutX="9.0" layoutY="-10.0" mnemonicParsing="false" onAction="#backToLobby" prefHeight="60.0" prefWidth="37.0" style="-fx-background-color: E69219;" styleClass="button-with-image" stylesheets="@style1.css" />
+   </children>
+</Pane>
